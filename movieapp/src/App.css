@@ -1,0 +1,13 @@
+.App{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0%;
+  top: 0%;
+  display: inline;
+  background-color: #0d1821;
+  overflow-y: scroll;
+  color: black;
+  overflow-x: hidden;
+  font-family: "Fira Sans", "times-new-roman";
+}

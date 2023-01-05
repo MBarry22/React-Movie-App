@@ -1,0 +1,20 @@
+.navlinks li {
+    list-style: none;
+    display: inline-block;
+    top: 0; 
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+a{
+    font-size: 1.05em;
+    text-decoration: none;
+}
+a:visited {
+    color: #A9CBB7;
+  }
+a:hover{
+    color: #beeed2;
+}
+a:active{
+    color: #A9CBB7;
+}

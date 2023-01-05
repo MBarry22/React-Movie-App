@@ -1,0 +1,50 @@
+.movie-more-info{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:  100%;
+    height: 100%;
+    z-index: 99;
+}
+
+.more-info-button{
+    position: absolute;
+    width:  100%;
+    height: 100%;
+    background: rgba(0, 0, 0 ,0.8);
+    
+}
+
+.more-info-movie-title{
+    font-size: 5rem;
+    height: 25%;
+}
+
+.more-info-movie-popularity{
+    font-size: 2.2rem;
+    height: 20%;
+}
+
+.more-info-movie-overview{
+    font-size: 2.2rem;
+    height: 30%;
+}
+
+.more-info-movie-release-date{
+    font-size: 2.2rem;
+    height: 20%;
+}
+.more-info-area{
+    position: absolute;
+    width: 90%;
+    margin:5%;
+    text-align: center;
+    object-fit: cover;
+    height: 80%;
+    color: whitesmoke;
+    border-image: linear-gradient(#cac88a, #CB904D) 30;
+    border-width: 3px;
+    border-style: solid;
+    text-shadow: -2px -2px 0 black;
+
+}

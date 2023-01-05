@@ -1,0 +1,166 @@
+
+.movie-card-container{
+    height: 90%;
+    width: 100%;
+    float: right;
+
+}
+.movie-popup-button{
+    width: 100%;
+    height: 100%;
+    background: rgb(9, 10, 17);
+
+
+}
+
+.movie-card-list{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-auto-rows: 40vh;
+    grid-gap: 1.3%;
+    row-gap: 3%;
+    width: 100%;
+
+}
+.movies{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+
+.movie-title{
+    color: whitesmoke;
+    font-size: 1.4rem;
+    align-self: start;
+
+}
+
+p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    overflow: hidden;
+}
+
+.movie-release-date{
+    position: absolute;
+    color: whitesmoke;
+    align-self: end;
+    
+    bottom: 10%;
+}
+
+.movie-overview{
+    color: whitesmoke;
+    height:40%;
+    width: 100%;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 9;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    align-self: stretch;
+    
+    
+}
+
+.movie-popularity{
+    
+    height: 10%;
+    align-self: start;
+    background: -webkit-linear-gradient(#cac88a, #CB904D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 0.4rem;
+}
+
+.movie-card-list li{
+    display: inline;
+    height: 100%;
+    width:90%;
+    list-style: none;
+    border-image: linear-gradient(#cac88a, #CB904D) 30;
+    border-width: 3px;
+    border-style: solid;
+}
+.movie-poster img{
+    
+    height: 100%;
+    width: 100%;
+    aspect-ratio: 0.5/1;
+    object-fit: cover;
+    
+  
+}
+.movie-poster{
+    height: 80%;
+
+}
+.poster-button{
+    margin: 10px 0px 0px 10px;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+
+}
+
+.poster-button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    opacity: 80%;
+    
+}
+.movie-right{
+    position: relative;
+    float: right;
+    width: 55%;
+    height: 100%;
+    padding: 2%;
+    z-index: 1;
+    overflow: hidden;
+
+}
+.movie-left{
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+}
+.Fav-Button{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    object-fit: cover;
+    float: left;
+    left: 0;
+    bottom: 0;
+
+}
+.favbutton-image{
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    
+}
+.favbutton-image:hover{
+    cursor: pointer;
+}
+.add-to-favourites{
+    width: 100%;
+    position: relative;
+    height: 15%;
+    bottom: 0;
+    left: 0;
+    padding: 5% 0 0 7.5%;
+}
+
+
+
