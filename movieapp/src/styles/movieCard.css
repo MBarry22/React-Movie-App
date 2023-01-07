@@ -162,5 +162,11 @@ p{
     padding: 5% 0 0 7.5%;
 }
 
+@media (max-width: 700px){
+    .movie-card-list ul{
+        grid-column: 1fr;
+    }
+}
+
 
 
