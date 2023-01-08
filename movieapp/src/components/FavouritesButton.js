@@ -10,7 +10,8 @@ export default function FavouritesButton(props) {
             if(isFavourites == null){
             let currMovies = JSON.parse(localStorage.getItem('movies'))
             
-            if(currMovies[props.movieId.toString()]){
+            
+            if(currmovies != null && currMovies[props.movieId.toString()]){
                 setIsFavourites(true)
 
             }
