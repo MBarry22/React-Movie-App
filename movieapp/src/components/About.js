@@ -12,9 +12,9 @@ function About() {
               <p>MP-Movies is a movie database app that sorts through popular, top-rated, now-playing and upcoming movies. Take a look through the list of movies in our homepage and
                 add you're favourites to you're favourites list!. 
               </p>
-              <p>This website was built using the React language as part of the React class in BCIT's SSD course by Mason Porter</p>
+              <p>This website was built using the React language as part of the React class in BCIT's SSD course by <a class='mason-porter-link' target="_blank" href='https://www.instagram.com/_masonporter_/?hl=en'>Mason Porter</a></p>
               <div class="TMDB-text">
-                <p>This product uses the <span class="TMDB-Gradient">TMDb API</span> but is not endorsed or certified by <span class="TMDB-Gradient">TMDb.</span></p>
+                <p>This product uses the <a class="TMDB-Gradient" target="_blank" href='https://www.themoviedb.org/'>TMDb API</a> but is not endorsed or certified by <a class="TMDB-Gradient" target="_blank" href='https://www.themoviedb.org/'>TMDb.</a></p>
               </div>
               <div class="TMDB-Logo">
                 <img src={tmbd} alt="TMBD logo" height="50"></img>
