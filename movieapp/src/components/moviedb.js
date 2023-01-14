@@ -3,16 +3,18 @@ import API_KEY from './secret'
 
 var moviedb = {}
 moviedb.API_URL = 'https://api.themoviedb.org/3'
+
 moviedb.popularMovies = '/discover/movie?sort_by=popularity.desc'
-moviedb.top_rated = '/discover/movie?sort_by=top_rated.desc'
-moviedb.upcoming = '/discover/movie?sort_by=upcoming.desc'
-moviedb.now_playing = '/discover/movie?sort_by=now_playing.desc'
+moviedb.top_rated = '/movie/top_rated?&language=en-US'
+moviedb.upcoming = '/movie/upcoming?&language=en-US'
+moviedb.now_playing = '/movie/now_playing?&language=en-US'
 moviedb.movieId = '/movie/'
 
 moviedb.API_GET = async function(path){
     const response = await axios(moviedb.API_URL + path, {
         params: {api_key: API_KEY}
     });
+    console.log(response)
     return response;
 }
 
