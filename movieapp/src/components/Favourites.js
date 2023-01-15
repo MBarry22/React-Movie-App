@@ -59,7 +59,15 @@ function Favourites () {
             }
             </ul>
             ) : (
-              <p>You have no favourite movies!</p>
+              <p id="no-movies">You currently have no favourite movies!
+                <br></br> 
+                Go select some of your favourite movies from: 
+                <br></br>
+                <a class='now-playing-link' href='http://localhost:3000'>Popular Movies</a> | <a class='upcoming-link' href='http://localhost:3000/top_rated_movies'>Top Rated Movies</a>
+                <br></br>
+                <a class='upcoming-link' href='http://localhost:3000/upcoming_movies'>Upcoming Movies</a> | <a class='now-playing-link' href='http://localhost:3000/now_playing_movies'>Now Playing Movies</a> 
+              </p>
+              
             )}
         </div>
 

@@ -15,36 +15,66 @@
     
 }
 
-.more-info-movie-title{
-    font-size: 5rem;
-    height: 25%;
+.more-info-movie-poster img{
+    height: 80%;
+    width: 50%;
+    aspect-ratio: 0.5/1;
+    object-fit: cover;
+  
 }
+.more-info-movie-poster{
+    position: relative;
+    top: 10%;
+    height: 100%;
 
-.more-info-movie-popularity{
-    font-size: 2.2rem;
+    
+}
+.more-info-movie-title{
+    position: relative;
+    font-size: 1.8rem;
     height: 20%;
+    left: 38%;
+    width: 50%;
 }
 
 .more-info-movie-overview{
-    font-size: 2.2rem;
+    position: relative;
+    font-size: 1.5rem;
     height: 30%;
+    width: 70%;
+    left: 28%;
+    
+}
+.more-info-movie-popularity{
+    position: relative;
+    margin-top: 5px;
+    font-size: 1.8rem;
+    height: 15%;
+    width: 50%;
+    left: 38%;
 }
 
 .more-info-movie-release-date{
-    font-size: 2.2rem;
-    height: 20%;
+    position: relative;
+    font-size: 1.8rem;
+    height: 15%;
+    width: 50%;
+    left: 38%;
+}
+.more-info-area p{
+    color: white;
 }
 .more-info-area{
     position: absolute;
     width: 90%;
-    margin:5%;
+    margin: 5%;
     text-align: center;
     object-fit: cover;
     height: 80%;
-    color: whitesmoke;
     border-image: linear-gradient(#cac88a, #CB904D) 30;
     border-width: 3px;
     border-style: solid;
-    text-shadow: -2px -2px 0 black;
-
+    background: linear-gradient(#363634, #050505);
+    opacity: 100%;
+    
 }

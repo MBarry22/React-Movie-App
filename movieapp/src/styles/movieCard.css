@@ -100,6 +100,10 @@ p{
     height: 80%;
 
 }
+.more-info-fav-button{
+    position: relative;
+    background-color: black;
+}
 .poster-button{
     margin: 10px 0px 0px 10px;
     height: 100%;
@@ -162,11 +166,6 @@ p{
     padding: 5% 0 0 7.5%;
 }
 
-@media (max-width: 700px){
-    .movie-card-list ul{
-        grid-column: 1fr;
-    }
-}
 
 
 
