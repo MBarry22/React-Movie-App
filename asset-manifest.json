@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React-Movie-App/static/css/main.0ac39a44.css",
+    "main.js": "/React-Movie-App/static/js/main.6df46d5b.js",
+    "static/js/787.5d5ea81f.chunk.js": "/React-Movie-App/static/js/787.5d5ea81f.chunk.js",
+    "static/media/Null_Movie_Poster.jpg": "/React-Movie-App/static/media/Null_Movie_Poster.dc2d4b33e2d52aa90392.jpg",
+    "static/media/emptyStar.png": "/React-Movie-App/static/media/emptyStar.25ecc79cecb32a873670.png",
+    "static/media/star.png": "/React-Movie-App/static/media/star.ab4e7982f061cb43a421.png",
+    "static/media/tmbd.svg": "/React-Movie-App/static/media/tmbd.bb8aa703cb92c9aa31fc1e0b17850ed9.svg",
+    "index.html": "/React-Movie-App/index.html",
+    "main.0ac39a44.css.map": "/React-Movie-App/static/css/main.0ac39a44.css.map",
+    "main.6df46d5b.js.map": "/React-Movie-App/static/js/main.6df46d5b.js.map",
+    "787.5d5ea81f.chunk.js.map": "/React-Movie-App/static/js/787.5d5ea81f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0ac39a44.css",
+    "static/js/main.6df46d5b.js"
+  ]
+}
